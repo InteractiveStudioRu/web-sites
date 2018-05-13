@@ -1,0 +1,18 @@
+.label {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	transform: rotate(-90deg);
+	font-size: em(14);
+	
+
+	@media all and (max-width: $xs) {
+		position: relative;
+		z-index: 201;
+	}
+}
+
+
+@import "__name/_label__name";
+@import "_hidden-sm-down/_label_hidden-sm-down";

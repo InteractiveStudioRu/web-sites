@@ -1,0 +1,20 @@
+.menu__info {
+	font-size: em(21);
+	margin-top: em(10);
+
+	@media all and (max-width: $xl) {
+		font-size: em(16);
+	}
+	@media all and (max-width: $lg) {
+		
+	}
+	@media all and (max-width: $md) {
+		
+	}
+	@media all and (max-width: $sm) {
+		
+	}
+	@media all and (max-width: $xs) {
+		font-size: em(12);
+	}
+}

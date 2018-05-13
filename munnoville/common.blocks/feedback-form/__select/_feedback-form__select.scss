@@ -1,0 +1,43 @@
+.feedback-form__select {
+	flex: 1;
+	flex-basis: 30%;
+	max-width: 30%;
+	font-size: em(20);
+	color: $white;
+	border-radius: 8px;
+	border: 1px solid $white;
+	background-color: transparent;
+	text-align: center;
+	text-align-last: center;
+	padding: em(15) 0;
+
+	@media all and (max-width: $xl) {
+		font-size: em(16);
+		padding: em(12) 0;
+	}
+	
+	@media all and (max-width: $lg) {
+
+	}
+	
+	@media all and (max-width: $md) {
+
+	}
+
+	@media all and (max-width: $sm) {
+	}
+
+	@media all and (max-width: $xs) {
+		margin-top: em(12);
+		font-size: em(15.6);
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+
+}
+
+.feedback-form__select option {
+	background-color: $dark-grey;
+	color: $white;
+	font-weight: bold;
+}

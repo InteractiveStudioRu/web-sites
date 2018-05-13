@@ -1,0 +1,9 @@
+.logo {
+	display: block;
+	width: 28px;
+	height: 21px;
+	background: url('../icons/logo.png') center center no-repeat;
+	transform: rotate(90deg);
+}
+
+@import "_hidden-sm-up/_logo_hidden-sm-up";

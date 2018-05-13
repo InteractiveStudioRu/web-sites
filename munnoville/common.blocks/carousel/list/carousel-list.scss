@@ -1,0 +1,12 @@
+.carousel-list {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	flex-basis: 100%;
+
+	@media all and (max-width: $xs) {
+
+	}
+}
+
+@import "__item/_carousel-list__item";

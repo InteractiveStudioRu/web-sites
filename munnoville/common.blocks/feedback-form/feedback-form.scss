@@ -1,0 +1,44 @@
+.feedback-form {
+	font-family: Gilroy;
+	font-weight: 300;
+	display: flex;
+	flex-basis: 64%;
+	max-width: 64%;
+	justify-content: space-between;
+	padding-top: em(90);
+
+
+	@media all and (max-width: $xl) {
+		flex-basis: 62%;
+		max-width: 62%;
+		padding-top: em(50);
+	}	
+	
+	@media all and (max-width: $lg) {
+		flex-basis: 80%;
+		max-width: 80%;
+		padding-top: em(50);
+
+	}
+	
+	@media all and (max-width: $md) {
+
+	}
+
+	@media all and (max-width: $sm) {
+		flex-basis: 100%;
+		max-width: 100%;
+		padding-top: em(50);
+	}
+
+	@media all and (max-width: $xs) {
+		flex-direction: column;
+		flex-basis: 65%;
+		max-width: 65%;
+		padding-top: em(16);
+	}
+}
+
+@import "__button/_feedback-form__button";
+@import "__input/_feedback-form__input";
+@import "__select/_feedback-form__select";

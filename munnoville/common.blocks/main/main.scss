@@ -1,0 +1,24 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	flex-basis: 100%;
+	max-width: 100%;
+	padding-top:(80px / 1920px * 100%);
+	padding-bottom:(80px / 1920px * 100%);
+	padding-left:(140px / 1920px * 100%);
+	padding-right:(75px / 1920px * 100%);
+
+
+	@media all and (max-width: $sm) {
+		padding-left:(80px / 1920px * 100%);
+		padding-right:(80px / 1920px * 100%);
+	}
+
+	@media all and (max-width: $xs) {
+		padding-top:(80px / 1920px * 100%);
+		padding-bottom:(80px / 1920px * 100%);
+		padding-left:(140px / 1920px * 100%);
+		padding-right:(140px / 1920px * 100%);
+	}
+} 

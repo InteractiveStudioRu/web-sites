@@ -1,0 +1,28 @@
+.footer {
+	display: flex;
+	flex-shrink: 0;
+	flex-wrap: nowrap;
+	font-size: em(19);
+
+	@media all and (max-width: $xl) {
+		font-size: em(16);
+	}
+
+	@media all and (max-width: $lg) {
+		
+	}
+
+	@media all and (max-width: $md) {
+		font-size: em(13.6);
+	}
+
+	@media all and (max-width: $sm) {
+		font-size: em(15);
+	}
+
+	@media all and (max-width: $xs) {
+		font-size: em(19);
+	}
+}
+
+@import "__copyright/_footer__copyright";

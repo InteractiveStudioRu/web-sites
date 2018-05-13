@@ -1,0 +1,18 @@
+.contacts {
+	display: flex;
+	flex-wrap: nowrap;
+	font-family: Gilroy;
+	font-size: em(19);
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.11;
+	letter-spacing: normal;
+	color: $white;
+
+	@media all and (max-width: $xl) {
+		font-size: em(16);
+	}
+}
+
+@import "__slash/_contacts__slash";

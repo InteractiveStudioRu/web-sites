@@ -1,0 +1,29 @@
+.body__title {
+	font-family: Gilroy;
+	font-size: em(72);
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.11;
+	letter-spacing: 0.7px;
+	text-align: left;
+	color: $white;
+	text-transform: uppercase;
+
+	@media all and (max-width: $xl) {
+		font-size: em(52);
+	}
+
+	@media all and (max-width: $lg) {
+		font-size: em(37);
+	}
+
+	@media all and (max-width: $sm) {
+	}
+
+	@media all and (max-width: $xs) {
+		font-size: em(25);
+		line-height: 1.28;
+		letter-spacing: 0.3px;
+	}
+}

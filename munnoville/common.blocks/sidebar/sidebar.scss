@@ -1,0 +1,39 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	min-width: (180px / 1920px * 100%);
+	max-width: (180px / 1920px * 100%);
+	flex: 1;
+	flex-shrink: 0;
+	padding: (80px / 1920px * 100%) 0;
+	font-size: em(17);
+
+	@media all and (max-width: $xl) {
+		font-size: em(16);
+	}
+
+	@media all and (max-width: $lg) {
+		
+	}
+
+	@media all and (max-width: $md) {
+
+	}
+
+	@media all and (max-width: $sm) {
+		min-width: 100%;
+		flex-direction: row-reverse;
+		padding: (80px / 1920px * 100%);
+	}
+
+	@media all and (max-width: $xs) {
+		padding-top: (140px / 1920px * 100%);
+		padding-bottom: (140px / 1920px * 100%);
+		padding-left:(140px / 1920px * 100%);
+		padding-right:(140px / 1920px * 100%);
+	}
+}
+
+@import "_dark/_sidebar_dark";

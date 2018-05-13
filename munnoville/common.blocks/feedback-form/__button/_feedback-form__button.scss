@@ -1,0 +1,35 @@
+.feedback-form__button {
+	flex: 1;
+	flex-basis: 30%;
+	max-width: 30%;
+	font-size: em(20);
+	color: $white;
+	border-radius: 8px;
+	border: 1px solid $desert;
+	background-color: $desert;
+	text-align: center;
+	padding: em(15) 0;
+
+	@media all and (max-width: $xl) {
+		font-size: em(16);
+		padding: em(12) 0;
+	}
+	
+	@media all and (max-width: $lg) {
+
+	}
+	
+	@media all and (max-width: $md) {
+
+	}
+
+	@media all and (max-width: $sm) {
+	}
+
+	@media all and (max-width: $xs) {
+		margin-top: em(12);
+		font-size: em(15.6);
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,28 @@
+.carousel {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-shrink: 1;
+	overflow-x: scroll;
+	margin-top: em(50);
+
+	&::-webkit-scrollbar {
+		height: 5px;
+	}
+
+	&::-webkit-scrollbar-track {
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: $desert;
+	}
+
+	@media all and (max-width: $xl) {
+		margin-top: em(10);
+	}
+
+}
+
+@import "list/carousel-list";
+@import "card/carousel-card";
+@import "__row/_carousel__row";

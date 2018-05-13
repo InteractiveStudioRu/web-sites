@@ -1,0 +1,5 @@
+.logo_hidden-sm-up{
+	@media all and (min-width: $sm) {
+		display: none;
+	}
+}

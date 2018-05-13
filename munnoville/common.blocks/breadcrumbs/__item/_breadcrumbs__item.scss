@@ -1,0 +1,17 @@
+.breadcrumbs__item {
+	margin: 0 em(12);
+
+	a {
+		color: $white;
+		text-decoration: none;
+
+		&:hover {
+			color: $desert;
+		}
+
+		&:focus {
+			font-weight: bold;
+			color: $desert;
+		}
+	}
+}

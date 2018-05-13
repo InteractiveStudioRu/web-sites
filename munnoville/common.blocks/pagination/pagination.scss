@@ -1,0 +1,11 @@
+.pagination {
+	display: flex;
+	font-size: em(15);
+	transform: rotate(-90deg);
+}
+
+@import "__slash/_pagination__slash";
+@import "__current-page/_pagination__current-page";
+@import "__total-pages/_pagination__total-pages";
+@import "_hidden-sm-down/_pagination_hidden-sm-down";
+@import "__inner/_pagination__inner";
